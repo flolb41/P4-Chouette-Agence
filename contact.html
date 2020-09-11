@@ -2,29 +2,33 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
+        <meta name="keywords" content="entreprise, webdesign, Lyon, entreprise Lyon, entreprise webdesign">
+        <meta name="description" content="Voici la page de contact de la chouette agence">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-        <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-        <script src="./js/jquery-2.1.0.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/blocs.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="./css/et-line.css">
+        <script src="./js/jquery-2.1.0.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/blocs.js"></script>
         <script src="./js/jqBootstrapValidation.js"></script>
         <script src="./js/formHandler.js"></script>
-        <title>Contacter de la chouette agence</title>   
+        <title>Contacter la chouette agence</title>   
 <!-- Analytics -->
-    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177619788-1"></script>
+        <script>window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-177619788-1');
+        </script>
 <!-- Analytics END -->  
     </head>
     <body>
 <!-- Principal conteneur -->
         <main class="page-container">  
-<!-- bloc-0 -->
-            <article class="bloc bgc-white l-bloc" id="bloc-0">
+            <header class="bloc bgc-white l-bloc" id="bloc-0">
                 <section class="container bloc-sm">
                     <nav class="navbar row">
                         <div class="navbar-header">
@@ -41,10 +45,9 @@
                         </div>
                     </nav>
                 </section>
-            </article>
-<!-- bloc-0 END -->
+            </header>
 <!-- bloc-6 -->
-            <article class="bloc bg-dots-bg bg-repeat bg-banniere bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+            <article class="bloc bgc-dark-slate-blue bg-dots-bg bg-repeat bg-banniere bg-t-edge bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-6">
                 <section class="container bloc-lg">
                     <div class="row">
                         <div class="col-sm-12">
@@ -80,9 +83,13 @@
                                 <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
                             </form>
                         </div>
-                        <div class="col-sm-6">
-                            <p>contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br></p>
-                        </div>
+                        <address class="col-sm-6">
+                            Vous pouvez nous écrire :<br>
+                            <a mailto="contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><br>
+                            Vous pouvez également nous rencontrer :<br>
+                            2 place Sathonay,<br> 69001 Lyon<br><br>
+                            Nous sommes ouverts de 9h à 18h, du lundi au vendredi<br>
+                        </address>
                     </div>
                 </section>
             </article>
@@ -90,8 +97,7 @@
 <!-- ScrollToTop Button -->
             <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
-<!-- Footer - bloc-8 -->
-            <article class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+            <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
                 <section class="container bloc-sm">
                     <div class="row">
                         <div class="col-sm-12">
@@ -121,8 +127,7 @@
                         </div>
                     </div>
                 </section>
-            </article>
-        <!-- Footer - bloc-8 END -->  
+            </footer> 
         </main>
     <!-- Principal conteneur END -->
     </body>
