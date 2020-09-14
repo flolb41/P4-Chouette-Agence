@@ -775,7 +775,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #eb4808;
+    background-color: #b13707;
 }
 
 .tc-white {
@@ -783,12 +783,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #eb4808;
+    background: #b13707;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ad512c!important;
+    background: #e66b3b!important;
     color: #FFFFFF!important;
 }
 
@@ -801,11 +801,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #eb4808!important;
+    color: #b13707!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #ad512c!important;
+    color: #e66b3b!important;
 }
 
 .icon-dark-slate-blue {
