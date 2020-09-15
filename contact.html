@@ -10,6 +10,10 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="./css/et-line.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jquery.touchSwipe.js" defer></script>
         <title>Contacter la chouette agence</title>   
 <!-- Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177619788-1"></script>
@@ -59,30 +63,30 @@
                         <div class="col-sm-6">
                             <form id="form_1">
                                 <div class="form-group">
-                                    <label>Nom</label>
+                                    <label for="Nom">Nom</label>
                                     <input id="name" class="form-control" required />
                                 </div>
                                 <div class="form-group">
-                                    <label>Adresse email</label>
+                                    <label for="courriel">Adresse email</label>
                                     <input id="email" class="form-control" type="email" required />
                                 </div>
                                 <div class="form-group">
-                                    <label>Comment nous avez-vous connu ?</label>
+                                    <label for="connaissance">Comment nous avez-vous connu ?</label>
                                     <input class="form-control" type="email" required id="input_504" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
-                                    <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                                    <label for="Projet">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+                                    <textarea id="message" class="form-control" rows="5" cols="50" required></textarea>
                                 </div> 
                                 <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
                             </form>
                         </div>
-                        <address class="col-sm-6">
+                        <address class="col-sm-6 text-center">
                             Vous pouvez nous écrire :<br>
                             <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><br>
                             Vous pouvez également nous rencontrer :<br>
-                            Nous sommes ouverts de 9h à 18h, du lundi au vendredi<br><br>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2340.28615020628!2d4.828205646252491!3d45.769487932276334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1600153983023!5m2!1sfr!2sfr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            Nous sommes ouverts de 9h à 18h, du lundi au vendredi.<br><br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2340.28615020628!2d4.828205646252491!3d45.769487932276334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1600153983023!5m2!1sfr!2sfr" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </address>
                     </div>
                 </div>
