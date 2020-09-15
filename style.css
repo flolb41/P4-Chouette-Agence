@@ -10,6 +10,10 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+#bloc-7 address {
+    font-size: 20px;
+    color: black;
+}
 
 a,
 button {
@@ -654,8 +658,9 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    font-size: 16px;
+    color: #111111!important;
 }
 
 .container {
