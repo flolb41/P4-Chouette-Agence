@@ -10,8 +10,14 @@
         <link rel="stylesheet" type="text/css" href="./css/et-line.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177619788-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177619788-1"></script>
+        <script src="./js/analytics.js"></script>
 <!-- Analytics END -->
+        <script src="./js/jquery-2.1.0.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/blocs.js"></script>
+        <script src="./js/jquery.touchSwipe.js" defer></script>
+        <script src="./js/gmaps.js"></script>
         <title>Contacter la chouette agence</title>     
     </head>
     <body>
@@ -21,7 +27,6 @@
                 <div class="container bloc-sm">
                     <nav class="navbar row">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo de la chouette agence" height="40" /></a>
                             <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
                                 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
@@ -29,6 +34,7 @@
                         <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                             <ul class="site-navigation nav navbar-nav">
                                 <li><a href="index.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Accueil</a></li>
+                                <li><a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -53,20 +59,20 @@
                         <div class="col-sm-6">
                             <form id="form_1">
                                 <div class="form-group">
-                                    <label>Nom</label>
-                                    <input id="name" class="form-control" name="user_name" required/>
+                                    <label for="name">Nom</label>
+                                    <input id="name" class="form-control" type="text" name="name" placeholder="Votre Nom" required />
                                 </div>
                                 <div class="form-group">
-                                    <label>Adresse email</label>
-                                    <input id="email" class="form-control" type="email" name="user_mail" required/>
+                                    <label for="email">Adresse email</label>
+                                    <input id="email" name="email" class="form-control" type="email" placeholder="nom@exemple.com" name="user_mail" required />
                                 </div>
                                 <div class="form-group">
-                                    <label>Comment nous avez-vous connu ?</label>
-                                    <input id="input_504" class="form-control" type="email" name="user_know" required/>
+                                    <label for="input_504">Comment nous avez-vous connu ?</label>
+                                    <input id="input_504" class="form-control" type="text" required />
                                 </div>
                                 <div class="form-group">
-                                    <label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
-                                    <textarea id="message" class="form-control" rows="5" cols="50" name="user_message" required></textarea>
+                                    <label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+                                    <textarea id="message" class="form-control" rows="5" cols="50" required ></textarea>
                                 </div> 
                                 <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
                             </form>
@@ -115,6 +121,9 @@
                 </div>
             </footer>
 <!-- Footer - bloc-8 END -->
+<!-- ScrollToTop Button -->
+            <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
         </main>
 <!-- Principal conteneur END -->
     </body>
