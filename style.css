@@ -372,6 +372,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+iframe {
+    margin: auto;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1027,6 +1030,7 @@ h4 {
     }
     form {
         padding: 5px;
+        margin: auto;
     }
     .close-lightbox {
         display: inline-block;
