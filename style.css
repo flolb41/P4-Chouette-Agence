@@ -882,8 +882,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: var(safe-area-inset-left);
-        padding-right: var(safe-area-inset-right);
+        padding-left: auto;
+        padding-right: auto;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -893,8 +893,14 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: var(safe-area-inset-left);
-        padding-right: var(safe-area-inset-right);
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .img-responsive {
+        width: 50%;
+        display: block;
+        padding: 0;
+        margin: auto;
     }
 }
 
