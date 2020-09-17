@@ -13,6 +13,9 @@ body {
 #bloc-7 address {
     font-size: 20px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 a,
@@ -901,6 +904,9 @@ h4 {
         display: block;
         padding: 0;
         margin: auto;
+    }
+    address {
+        display: flex;
     }
 }
 
